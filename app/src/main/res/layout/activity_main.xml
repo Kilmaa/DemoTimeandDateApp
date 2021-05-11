@@ -32,11 +32,11 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/buttonDisplayName"
+                    android:id="@+id/buttonDisplayTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/dName" />
+                    android:text="@string/dTime" />
 
                 <Button
                     android:id="@+id/buttonDisplayDate"
@@ -45,13 +45,20 @@
                     android:layout_weight="1"
                     android:text="@string/dDate" />
 
-                <TextView
-                    android:id="@+id/textViewDisplay"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/dResult" />
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dResult" />
+
+            <Button
+                android:id="@+id/buttonReset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
         </LinearLayout>
     </ScrollView>
 

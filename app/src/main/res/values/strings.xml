@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Demo Time and Date App</string>
-    <string name="dName">Demo Time and Date App</string>
-    <string name="dDate">Demo Time and Date App</string>
-    <string name="dResult">Demo Time and Date App</string>
+    <string name="dTime">DISPLAY TIME</string>
+    <string name="dDate">DISPLAY DATE</string>
+    <string name="dResult"></string>
+    <string name="dReset">RESET</string>
 
 </resources>
